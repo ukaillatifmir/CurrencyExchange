@@ -2,6 +2,7 @@
 Currency Management System
 Welcome to the Currency Management System! This Django application allows users to manage and convert currencies easily. It includes functionalities for viewing, creating, updating, and deleting currencies, as well as accessing currency rates and converting amounts between different currencies.
 
+Python Versions :  3.12.7
 Table of Contents
 Features
 Technologies Used
@@ -25,32 +26,25 @@ HTML/CSS - For the front-end rendering.
 Installation
 To get started with the Currency Management System, follow these steps:
 
-Clone the repository:
-
+1. Clone the repository: git clone https://github.com/ukaillatifmir/CurrencyExchange.git
+2. Create a virtual environment (optional but recommended):
 bash
-Copy code
-git clone https://github.com/ukaillatifmir/CurrencyExchange.git
-cd currency-management
-Create a virtual environment (optional but recommended):
-
-bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install the required packages:
+
+3. Install the required packages:
 
 bash
-Copy code
 pip install -r requirements.txt
 
+4. create super user
 bash
-Copy code
-python manage.py migrate
-Run the development server:
+python manage.py createsuperuser
 
+5. Run the development server:
 bash
-Copy code
 python manage.py runserver
+
 Open your browser and navigate to http://127.0.0.1:8000/ to view the application.
 
 Usage
