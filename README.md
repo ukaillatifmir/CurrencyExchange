@@ -70,3 +70,10 @@ Create a new branch: git checkout -b feature/YourFeature.
 Make your changes and commit them: git commit -m 'Add some feature'.
 Push to the branch: git push origin feature/YourFeature.
 Create a pull request.
+
+# NOTE
+
+1. please use admin panel to change the default provider. 
+
+2. admin creds  (admin,onicra@12345)
+
