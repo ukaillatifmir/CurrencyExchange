@@ -2,23 +2,23 @@
 Currency Management System
 Welcome to the Currency Management System! This Django application allows users to manage and convert currencies easily. It includes functionalities for viewing, creating, updating, and deleting currencies, as well as accessing currency rates and converting amounts between different currencies.
 
-Python Versions :  3.12.7
-Table of Contents
-Features
-Technologies Used
-Installation
-Usage
-API Endpoints
-Contributing
-License
-Features
-List all available currencies.
-Create new currencies.
-Update existing currency details.
-Delete currencies with confirmation.
-Retrieve real-time currency rates.
-Convert amounts between different currencies.
-Technologies Used
+#Python Versions :  3.12.7
+#Table of Contents
+#Features
+#Technologies Used
+#Installation
+#Usage
+#API Endpoints
+#Contributing
+#License
+#Features
+#List all available currencies.
+#Create new currencies.
+#Update existing currency details.
+#Delete currencies with confirmation.
+#Retrieve real-time currency rates.
+#Convert amounts between different currencies.
+#Technologies Used
 Django - A high-level Python web framework.
 Django REST Framework - For building RESTful APIs.
 SQLite - Database for local development.
