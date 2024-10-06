@@ -10,7 +10,7 @@ To get started with the Currency Management System, follow these steps:
 
 1. Clone the repository: git clone https://github.com/ukaillatifmir/CurrencyExchange.git
 2. Create a virtual environment (optional but recommended):
-bash
+# bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
