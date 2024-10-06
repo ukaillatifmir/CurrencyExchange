@@ -65,7 +65,7 @@ Response: Converted amount.
 Contributing
 We welcome contributions to this project! If you'd like to contribute, please follow these steps:
 
-Fork the repository.
+# Creating new branch.
 Create a new branch: git checkout -b feature/YourFeature.
 Make your changes and commit them: git commit -m 'Add some feature'.
 Push to the branch: git push origin feature/YourFeature.
