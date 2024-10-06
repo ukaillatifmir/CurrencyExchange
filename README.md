@@ -29,7 +29,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/currency-management.git
+git clone https://github.com/ukaillatifmir/CurrencyExchange.git
 cd currency-management
 Create a virtual environment (optional but recommended):
 
