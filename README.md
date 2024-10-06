@@ -14,16 +14,12 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. Install the required packages:
-
-bash
 pip install -r requirements.txt
 
 4. create super user
-bash
 python manage.py createsuperuser
 
 5. Run the development server:
-bash
 python manage.py runserver
 
 Open your browser and navigate to http://127.0.0.1:8000/ to view the application.
