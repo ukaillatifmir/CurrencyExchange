@@ -1,0 +1,11 @@
+<h1>Currency List</h1>
+<a href="{% url 'currency_create' %}">Add Currency</a>
+<ul>
+    {% for currency in currencies %}
+        <li>
+            {{ currency.name }} ({{ currency.code }}) 
+            <a href="{% url 'currency_update' currency.pk %}">Edit</a>
+            <a href="{% url 'currency_delete' currency.pk %}">Delete</a>
+        </li>
+    {% endfor %}
+</ul>
